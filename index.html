@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — PDF Editor AI</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8f6;
+      --fg: #1a1f1c;
+      --muted: #5a635c;
+      --card: #ffffff;
+      --accent: #0f6b5c;
+      --border: #d7ddd8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121513;
+        --fg: #e8ece9;
+        --muted: #a3aea7;
+        --card: #1b211e;
+        --accent: #5ecfb8;
+        --border: #2c3530;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    .brand {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+    }
+    .meta {
+      font-family: system-ui, -apple-system, sans-serif;
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 0.65rem;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    p, li { margin: 0 0 0.75rem; }
+    ul { margin: 0 0 0.5rem; padding-left: 1.2rem; }
+    a { color: var(--accent); }
+    footer {
+      font-family: system-ui, -apple-system, sans-serif;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">InterviewGo</p>
+    <h1>Privacy Policy for PDF Editor AI</h1>
+    <p class="meta">
+      Effective date: July 29, 2026<br />
+      App: PDF Editor AI – All PDF Tools<br />
+      Package: <code>in.interviewgo.pdfeditorai</code>
+    </p>
+
+    <section>
+      <h2>1. Introduction</h2>
+      <p>
+        This Privacy Policy explains how <strong>PDF Editor AI</strong> (“the App”),
+        developed by <strong>InterviewGo</strong> (“we”, “us”), handles information
+        when you use the App on Android.
+      </p>
+      <p>
+        The App is designed to work primarily <strong>on your device</strong>. We do
+        not operate a cloud account system for this App, and we do not sell your
+        personal information.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Information the App processes</h2>
+      <p>Depending on how you use the App, it may process:</p>
+      <ul>
+        <li>
+          <strong>PDF files and related metadata you choose to open, import, or grant folder access to</strong>
+          (for example file name, size, last modified time, reading position, favorites).
+          These stay on your device in app storage / your chosen folders unless you
+          explicitly share or export them.
+        </li>
+        <li>
+          <strong>App preferences</strong> such as theme, library sort options, and
+          reading settings (stored locally with Android DataStore / Room).
+        </li>
+        <li>
+          <strong>Camera images</strong>, only if you use Camera PDF and grant camera
+          permission. Images are used to create a PDF on your device.
+        </li>
+        <li>
+          <strong>Optional remote PDF URLs</strong>, only if you open a PDF from an
+          <code>https://</code> link. The App then fetches that file over the network.
+        </li>
+      </ul>
+      <p>
+        The App does <strong>not</strong> require you to create an account and does
+        <strong>not</strong> collect advertising IDs.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. On-device AI / ML features</h2>
+      <p>
+        Some features run <strong>entirely on your device</strong>:
+      </p>
+      <ul>
+        <li>
+          <strong>Smart Rename</strong> uses on-device text recognition (Google ML Kit)
+          to suggest a file name from the first page. Document pixels used for this
+          feature are processed locally by the App; we do not upload your PDF content
+          to InterviewGo servers for renaming.
+        </li>
+        <li>
+          <strong>Blank page detection</strong> analyzes page appearance on-device to
+          help you remove blank pages.
+        </li>
+      </ul>
+      <p>
+        Google ML Kit may download recognition model files to your device over the
+        network when needed. That model download is handled by Google’s components on
+        the device and is separate from uploading your PDF contents to InterviewGo.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Permissions</h2>
+      <ul>
+        <li>
+          <strong>Internet</strong> — required for the built-in PDF viewer (local
+          WebView assets) and for opening a PDF from a URL if you choose to.
+        </li>
+        <li>
+          <strong>Camera</strong> — optional; used only for Camera PDF.
+        </li>
+        <li>
+          <strong>Notifications</strong> — used for library scan / background work
+          progress where Android requires a foreground service notification.
+        </li>
+        <li>
+          <strong>Storage access</strong> — the App uses Android’s Storage Access
+          Framework (user-picked files/folders) and does not request all-files access.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Sharing and third parties</h2>
+      <p>
+        We do not sell your data. The App may share content only when <strong>you</strong>
+        initiate an action, such as Share or Print, using Android system intents.
+      </p>
+      <p>
+        Third-party libraries used by the App (for example PDF rendering, PDF
+        processing, and on-device ML Kit) run on your device as part of the App. Open
+        source notices are available in the App’s Settings / About section and in the
+        project NOTICE file.
+      </p>
+      <p>
+        If you install the App from Google Play, Google Play may collect standard
+        install, crash, and device diagnostics according to
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a>.
+        InterviewGo does not currently embed a separate third-party analytics or
+        advertising SDK in this App.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Data retention and deletion</h2>
+      <p>
+        Library indexes, preferences, and caches remain on your device until you
+        remove them (for example by clearing app storage or uninstalling the App).
+        Uninstalling the App deletes the App’s private data. Files you keep in shared
+        folders (such as Documents) remain under your control.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Children’s privacy</h2>
+      <p>
+        The App is not directed at children under 13. We do not knowingly collect
+        personal information from children. If you believe a child has provided
+        personal information through the App, contact us and we will help address it.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Security</h2>
+      <p>
+        We take reasonable technical measures appropriate for an on-device app,
+        including disabling cloud backup of app data, denying cleartext network
+        traffic by default, and not hardcoding secrets in the App. No method of
+        electronic storage or transmission is 100% secure.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The “Effective date”
+        at the top will change when we do. Continued use of the App after an update
+        means you accept the revised policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Contact</h2>
+      <p>
+        Questions about this Privacy Policy or the App:
+      </p>
+      <p>
+        <strong>PDFEditorAI</strong><br />
+        Email:
+        <!-- Replace with your real support address before publishing -->
+        <a href="mailto:mobileplaystore53@gmail.com">mobileplaystore53@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      This page is the public privacy policy for PDF Editor AI on Google Play.
+    </footer>
+  </main>
+</body>
+</html>
